@@ -10,7 +10,7 @@ A RAG-based (Retrieval-Augmented Generation) question-answering tool for biomedi
 
 Upload your own PDF papers, ask questions in natural language, and get answers grounded strictly in your uploaded literature — with source citations shown for every response.
 
-Designed around the PTPN22–14-3-3τ–JAK-STAT signaling axis (T-cell receptor research), but works with any biomedical PDF knowledge base.
+Works with any biomedical PDF knowledge base.
 
 ---
 
@@ -18,11 +18,11 @@ Designed around the PTPN22–14-3-3τ–JAK-STAT signaling axis (T-cell receptor
 
 | Feature | Detail |
 |---|---|
-| 📄 PDF Upload | Batch upload, auto-parsed into text chunks |
-| 🧠 Semantic Search | BAAI/bge-large-zh-v1.5 real embedding (not keyword matching) |
-| 🚫 Refusal Mechanism | Cosine similarity threshold filters irrelevant chunks; model refuses to fabricate |
-| 📎 Source Attribution | Every answer shows which paper and which passage it came from |
-| 💬 Conversation History | Multi-turn Q&A within a session |
+| PDF Upload | Batch upload, auto-parsed into text chunks |
+| Semantic Search | BAAI/bge-large-zh-v1.5 real embedding (not keyword matching) |
+| Refusal Mechanism | Cosine similarity threshold filters irrelevant chunks; model refuses to fabricate |
+| Source Attribution | Every answer shows which paper and which passage it came from |
+| Conversation History | Multi-turn Q&A within a session |
 
 ---
 
@@ -83,6 +83,6 @@ Key finding: the refusal mechanism works well for truly out-of-scope questions. 
 
 ## Background
 
-Built as part of a personal AI learning project (Stanford ML/DL courses + Li Hung-yi Generative AI course), grounded in real prior wet-lab research experience: T-cell receptor signaling pathway protein interaction study (undergraduate thesis, 2020–2022).
+Built as part of a personal AI learning project (Stanford ML/DL courses + Li Hung-yi Generative AI course), grounded in real prior wet-lab research experience.
 
 The core use case — cross-paper mechanism synthesis — came from a real frustration during that research period.
