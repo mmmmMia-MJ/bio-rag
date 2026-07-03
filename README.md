@@ -1,4 +1,4 @@
-# 🔬 BioRAG · Biomedical Literature QA Assistant
+# BioRAG · Biomedical Literature QA Assistant
 
 A RAG-based (Retrieval-Augmented Generation) question-answering tool for biomedical literature, built to solve a real research pain point: **scientists reading multiple papers can't retain which paper said what, and need to flip between articles repeatedly.**
 
