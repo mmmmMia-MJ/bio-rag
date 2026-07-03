@@ -2,7 +2,7 @@
 
 A RAG-based (Retrieval-Augmented Generation) question-answering tool for biomedical literature, built to solve a real research pain point: **scientists reading multiple papers can't retain which paper said what, and need to flip between articles repeatedly.**
 
-**Live Demo → [biorag.streamlit.app](https://your-link-here.streamlit.app)**
+**Live Demo → [biorag.streamlit.app](https://bio-rag-s6rsgtjb6n6aadm6qhct5r.streamlit.app/)**
 
 ---
 
