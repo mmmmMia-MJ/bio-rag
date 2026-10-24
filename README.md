@@ -71,16 +71,6 @@ Key finding: the refusal mechanism works well for truly out-of-scope questions. 
 
 ---
 
-## Tech Stack
-
-- **Backend**: Python, pypdf, openai SDK
-- **Embedding**: BAAI/bge-large-zh-v1.5 (SiliconFlow)
-- **Generation**: Qwen2.5-72B-Instruct (SiliconFlow)
-- **Frontend**: Streamlit
-- **Dev environment**: Google Colab
-
----
-
 ## Background
 
 Built as part of a personal AI learning project (Stanford ML/DL courses + Li Hung-yi Generative AI course), grounded in real prior wet-lab research experience.
